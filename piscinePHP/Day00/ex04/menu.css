@@ -1,0 +1,96 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    menu.css                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: upierre- <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/03/26 15:43:57 by upierre-          #+#    #+#              #
+#    Updated: 2018/03/26 17:59:39 by upierre-         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+body{
+	font-family: Georgia;
+	margin: 0px; 
+	padding: 0px;
+	background: white;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background: #424558;
+}
+
+ul > li{
+	float: left;
+	position: relative;
+}
+
+ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+ul > li > a{
+	padding: 20px 30px;
+	color: white;
+}
+
+li{
+	list-style-type: none;
+}
+
+.submenu{
+	display: none;
+}
+
+a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 100%;
+	padding: 0px;
+	z-index: 1000;
+}
+
+.submenu li a{
+	margin: 0px;
+	padding: 15px 30px;
+	font-size: 13px;
+	color: white;
+	width: 270px;
+}
+
+.menu-petitcreux:hover{
+	border-top: 5px solid orange;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.menu-plats:hover{
+	border-top: 5px solid blue;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.menu-menu:hover{
+	border-top: 5px solid green;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.menu-desserts:hover{
+	border-top: 5px solid yellow;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.menu-boissons:hover{
+	border-top: 5px solid red;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
