@@ -14,6 +14,7 @@ if ($argc > 1){
 	if ($total)
 		sort($total);
 	$i = 0;
+	$total = sort($total);
 	while ($total[$i])
 	{
 		echo $total[$i++];
