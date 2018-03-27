@@ -6,7 +6,7 @@
 #    By: upierre- <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/03/26 15:43:57 by upierre-          #+#    #+#              #
-#    Updated: 2018/03/26 17:59:39 by upierre-         ###   ########.fr        #
+#    Updated: 2018/03/27 10:34:43 by upierre-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -84,22 +84,22 @@ nav li:hover .submenu{
 	width: 270px;
 }
 
-.menu-html:hover{
+.menu-plats:hover{
 	border-top: 5px solid #e44d26;
 	background-color: RGBa(228, 77, 38, 0.15);
 }
 
-.menu-css:hover{
+.menu-menus:hover{
 	border-top: 5px solid #0070bb;
 	background: RGBa(000, 112, 192, 0.15);
 }
 
-.menu-js:hover{
+.menu-desserts:hover{
 	border-top: 5px solid #f1dc4f;
 	background-color: RGBa(241, 211, 79, 0.15);
 }
 
-.menu-contact:hover{
+.menu-boissons:hover{
 	border-top: 5px solid #BBB;
 	background-color: RGBa(220, 220, 220, 0.15);
 }
@@ -108,16 +108,20 @@ nav > ul > li:hover a{
 	padding: 15px 30px 20px 30px;
 }
 
-.menu-html .submenu{
+.menu-plats .submenu{
 	background-color: RGB(230, 100, 40);
 }
 
-.menu-css .submenu{
+.menu-menus .submenu{
 	background: RGB(000, 160, 240);
 }
 
-.menu-js .submenu{
+.menu-desserts .submenu{
 	background: RGB(251, 216, 99);
+}
+
+.menu-boissons .submenu{
+	background: RGB(211, 211, 211);
 }
 
 .submenu li:hover a{
@@ -125,18 +129,18 @@ nav > ul > li:hover a{
 	font-weight: bold;
 }
 
-.menu-html .submenu li:hover{
+.menu-plats .submenu li:hover{
 	background-color: RGB(210, 77, 60);
 }
 
-.menu-css .submenu li:hover{
+.menu-menus .submenu li:hover{
 	background-color: RGB(000, 115, 200);
 }
 
-.menu-js .submenu li:hover{
+.menu-desserts .submenu li:hover{
 	background: RGB(200, 165, 75);
 }
 
-.menu-contact .submenu li:hover{
+.menu-boissons .submenu li:hover{
 	background: RGB(128, 128, 128);
 }
