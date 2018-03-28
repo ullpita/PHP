@@ -19,6 +19,6 @@ while (1)
 			echo "Le chiffre ".$nbr." est impair\n";
 	}
 	else
-		echo "".$nbr." n'est pas un chiffre\n";
+		echo "'".$nbr."' n'est pas un chiffre\n";
 }
 ?>
