@@ -6,143 +6,149 @@
 #    By: upierre- <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/03/27 10:49:12 by upierre-          #+#    #+#              #
-#    Updated: 2018/03/27 10:49:28 by upierre-         ###   ########.fr        #
+#    Updated: 2018/03/27 18:47:48 by upierre-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-body {
-  background-color: #505050;
-  width: 1520px;
-  margin-left: auto;
-  margin-right: auto;
+head{
+	background-color: #505050;
 }
-
-.header {
-  max-width: 1500px;
-  max-height: 450px;
-  box-shadow: 10px 10px 5px black;
+body{
+	background-color: #505050;
 }
-
-.bandeau {
-  background-color: #909090;
+#bloc_page{
+	width:1366px;
+	margin: auto;
 }
-
-.bordure {
-  border: 10px solid;
-  border-radius: 10px;
-  border-color: #909090;
+#header_banner{
+	margin-top: 20px;
+	position: relative;
+	background-color: #909090;
+	width:auto;
+	height:152px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px black;
 }
-
-.bordered {
-  border: 5px solid;
-  border-radius: 4px;
-  border-color: red;
+#mainpic{
+	position:absolute;
+	width:500px;
+	top:10px;
 }
-
-img.img-dday {
-  position: relative;
-  margin-left: -800px;
+#loupe{
+	position:absolute;
+	right:0px;
+	right:50px;
+	bottom: -20px;
 }
-
-img.img-loupe {
-  float: right;
-  margin-top: 20px;
+#reload{
+	position: absolute;
+	right:10px;
+	top:10px;
+	width: 25px;
 }
-
-img.img-reload {
-  float: right;
+#close{
+	position: absolute;
+	bottom:10px;
+	right:13px;
 }
-
-img.img-close {
-  float: right;
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 1026px;
+section{
+	display: flex;
+	flex-direction: column;
 }
-
-.plate-left {
-  background-color: #909090;
-  height: 450px;
-  width: 150px;
-  margin: 20px 30px 30px 30px;
-  float: left;
-  box-shadow: 10px 10px 5px black;
+#main_bloc article{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	background-color: #909090;
+	height:580px;
+	width:1000px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px black;
 }
-
-.plate-right {
-  background-color: #909090;
-  height: 450px;
-  width: 150px;
-  margin: 6px 30px 30px 30px;
-  float: right;
-  box-shadow: 10px 10px 5px black;
+aside{
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 20px;
+	background-color: #909090;
+	height:500px;
+	width: 150px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px black;
 }
-
-
-img.cluster {
-  box-shadow: 10px 10px 5px black;
-  margin-top: 6px;
+nav{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #909090;
+	width: 150px;
+	height:500px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px black;
 }
-
-img.img-left {
-  margin-top: 10px;
-  margin-left: 10px;
+#cluster{
+	align-self: center;
+	max-width: 990px;
 }
-
-.brick {
-  background-image: url("resources/brick.png");
-  width: 70px;
-  height: auto;
+#brick{
+	width: 125px;
+	height: 80px;
+	background: url('resources/brick.jpg');
 }
-
-.green-screen {
-  background-color: #88ff89;
-  box-shadow: 10px 10px 5px black;
-  border-radius: 10px;
-  height: 150px;
-  width: 550px;
-  margin-top: -100px;
-  position: relative;
-  font-family: sans-serif;
+#main_bloc{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
-
-p {
-  margin-left: 10px;
+#green_box{
+	position: relative;
+	width:550px;
+	height:200px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px black;
+	background-color: #8cfd8e;
+	position: relative;
+	bottom:50px;
+	right:50px;
 }
-
-.entrez {
-  font-size: 30px;
-  font-family: serif;
-  font-family: Georgia;
+#text_input{
+	position: absolute;
+	top:114px;
+	width:400px;
+	left: 15px;
+	height:18px;
 }
-
-input.text-form {
-  width: 60%;
-  margin-left: 10px;
+#submit{
+	border: none;
+	font-size: 13px;
+	background-color: #f8f8f6;
+	background: -webkit-linear-gradient(#f8f8f6, #d5d4d5);
+	position: absolute;
+	border : 1px solid #b8b0b8;
+	top: 115px;
+	right: 50px;
 }
-
-input.submit-form {
-  margin-left: 10px;
+#look{
+	border: 5px solid red;
+	border-radius: 10px;
 }
-
-.ordidi {
-  text-shadow: 4px 4px 6px red;
+p{
+	font-size: 20px;
+	margin-left: 10px;
 }
-
-.ikea {
-  background-color: transparent;
-  position: absolute;
-  height: 250px;
-  width: 100px;
-  margin-left: 600px;
-  margin-top: 350px;
+strong{
+	font-size: 35px;
+	font-weight: normal;
 }
-
-.apple {
-  background-color: transparent;
-  position: absolute;
-  height: 150px;
-  width: 180px;
-  margin-left: 1060px;
-  margin-top: 350px;
+p + p{
+	margin-top: -20px;
+	font-style: italic;
+}
+em{
+	text-shadow: 6px 6px 5px rgba(255, 77, 49, 1);
 }
