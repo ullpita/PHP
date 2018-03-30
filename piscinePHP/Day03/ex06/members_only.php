@@ -13,7 +13,8 @@ if (!$validated)
 	    header('HTTP/1.0 401 Unauthorized');
 	    die ("Not authorized");
 }
-echo "<html><body>Bonjour Zaz<br />";
-base64_encode.file_get_contents('../img/42.png');
-echo "</body></html>";
+
+$img = file_get_contents('../img/42.png');
+$img_data = base64_encode($img);
+echo "$img_data";
 ?>
